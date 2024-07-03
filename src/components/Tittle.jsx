@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-function Hedding() {
-  return <h2>Healthy Food</h2>;
+function Hedding(props) {
+  return <h2>{props.head}</h2>;
 }
 
 export default Hedding;

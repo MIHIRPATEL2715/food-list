@@ -6,11 +6,12 @@ import "./App.css";
 
 function App() {
   let items = ["dal", "bhat", "roti", "shak", "butter milk"];
+  let tittle = "Healthy Food";
   return (
     <center>
       <div className="container">
-        <Hedding className="head"></Hedding>
-        <Fooditem></Fooditem>
+        <Hedding head={tittle} className="head"></Hedding>
+        <Fooditem fitem={items}></Fooditem>
       </div>
     </center>
   );
