@@ -5,7 +5,10 @@ function Fooditem({ fitem }) {
     <ul className="list-group">
       {fitem.map((item) => (
         <li key={item} className="list-group-item">
-          {item}
+          <p className="pera">{item}</p>
+          <button type="button" class="btn btn-info">
+            Add
+          </button>
         </li>
       ))}
     </ul>

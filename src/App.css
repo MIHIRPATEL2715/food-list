@@ -16,6 +16,16 @@
 .container:hover {
   transition: 1s;
   box-shadow: 0px 0px 50px 40px rgba(100, 32, 109, 0.584);
-
-  /* scale: 1.2; */
+}
+.btn {
+  float: right;
+}
+.pera {
+  display: inline;
+  float: left;
+}
+.input {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  border: 2px solid black;
 }
