@@ -7,7 +7,7 @@ function Fooditem({ fitem }) {
         <li key={item} className="list-group-item">
           <p className="pera">{item}</p>
           <button type="button" class="btn btn-info">
-            Add
+            Add Item
           </button>
         </li>
       ))}
